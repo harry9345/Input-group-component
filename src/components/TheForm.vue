@@ -3,7 +3,7 @@
     <div class="form-control" :class="{invalid: userNameValidity=== 'invalid'}">
       <label for="user-name">Your Name</label>
       <input id="user-name" name="user-name" type="text" v-model="userName" @blur="validateInput" />
-      <p v-if="userNameValidity ==='invalid'">Please enter a valid name</p>
+      <p v-if="userNameValidity ==='invalid'">Please enr a valid name</p>
     </div>
     <div class="form-control">
       <label for="age">Your Age (Years)</label>
